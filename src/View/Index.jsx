@@ -9,6 +9,7 @@ import fourth from "./img/4.png";
 import fifth from "./img/5.png";
 import sixth from "./img/6.png";
 import seventh from "./img/7.png";
+import headerImage from "./img/headerImage.png";
 
 import "./index.css";
 
@@ -16,11 +17,58 @@ export class Index extends Component {
   render() {
     return (
       <div>
+
+        {/*  Test Firmino*/}
+        <section id="Header" style={{ marginTop: "100px" }}>
+
+          <div class="container-fluid d-flex align-items-center h-100" >
+            <div class="row space-100 " >
+              <div class="col-lg-1 col-md-2 col-xs-2">
+              </div>
+              <div class="col-lg-5 col-md-8 col-xs-8">
+                <div class="contents">
+                  <h1 className="head-title header_text" >AI-powered platform to reduce your car fleet operational cost</h1>
+                  <p className="header_subtext">Manage your drivers in one place. Track their performance. Reach them instantly and improve their driving on the fly</p>
+                  <div className="row">
+                    <div className="col-sm-6 col-md-5 col-lg-7  ">
+                      <input
+                        className="form-control "
+                        type="text"
+                        placeholder="your@email.com"
+                        name="email"
+                      />
+                    </div>
+                    <div className="col-sm-6 col-md-3 col-lg-3 ">
+                      {" "}
+                      <button
+                        className="btn landing_button_btn1 "
+                        style={{ padding: "4px" }}
+                      >
+                        Free consultation
+                  </button>{" "}
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="col-lg-5 col-md-12 col-xs-12 p-0 intro-img d-flex align-items-center">
+                <div class="intro-img-place ">
+                  <img src={headerImage} alt="Platform product overview" className="img-fluid" />
+                </div>
+              </div>
+              <div class="col-lg-1 col-md-2 col-xs-2">
+              </div>
+            </div>
+          </div>
+
+        </section>
+
+        {/*  */}
+
         <section id="" className="container2   " style={{ marginTop: "100px" }}>
           <div className=" justify-content-center no-gutters mb-5 mb-lg-0 main_containr ">
             <div className="d-flex h-100">
               <div class="container d-flex h-100 align-items-center">
-                <div class="mx-auto text-center landing_text1 ">
+                <div class="mx-auto  landing_text1 ">
                   <h1 class="mx-auto header_text ">
                     Improve your drivers performance
                   </h1>

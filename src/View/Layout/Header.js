@@ -44,6 +44,12 @@ class Header extends Component {
                   Resources
                 </a>
               </li>
+
+              <li className="nav-item  ">
+                <a className="nav-link  login_btn text-dark" href="# ">
+                  Industries
+                </a>
+              </li>
             </ul>
             <ul className="navbar-nav mx-auto">
               <img src={Logo} alt="Website Logo" className="logo_image" />
@@ -65,7 +71,7 @@ class Header extends Component {
                   href="#contactt"
                   rel="modal:open"
                 >
-                  Get in touch
+                  Get a free quote
                 </a>
               </li>
             </ul>
