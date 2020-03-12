@@ -1,8 +1,14 @@
 @import url("https://fonts.googleapis.com/css?family=Roboto:400,500&display=swap");
 
-* {}
+* {
+}
 
 /* Header  page css */
+
+.navbar {
+  background-color: #f8f8f5;
+
+}
 
 #Header{
 background-color: #f8f8f5;
@@ -31,10 +37,10 @@ margin-top: ;
 }
 
 .container11 {
-  padding-left: 100px;
+  
   /* padding-right: 100px; */
-  margin: 0 auto;
-  max-width: 1000px;
+  margin: auto;
+  /* max-width: 1000px; */
   margin-top: 40px;
 }
 .container111 {
@@ -74,11 +80,11 @@ margin-top: ;
 
 /* Index page css */
 .container2 {
-  padding-left: 110px;
-  padding-right: 110px;
+  padding-left: 5%;
+  padding-right: 5%;
 
   max-width: 1300px;
-  margin: 0 auto;
+  margin:auto;
 }
 
 .containe3 {
@@ -250,8 +256,14 @@ margin-top: ;
 .text-style {
   font-family: "Roboto", sans-serif;
   font-weight: 600;
-  font-size: 18px;
+  font-size: 36px;
   color: #58585b;
+}
+
+p {
+  font-family: "Roboto", sans-serif;
+  font-weight: 100;
+  font-size: 18px;
 }
 /* @media only screen and (max-width: 1200px) {
   .containe3 {

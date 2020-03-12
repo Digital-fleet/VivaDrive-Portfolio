@@ -19,17 +19,17 @@ export class Index extends Component {
       <div>
 
         {/*  Test Firmino*/}
-        <section id="Header" style={{ marginTop: "100px" }}>
+        <section id="Header" style={{ marginTop: "55px" }}>
 
           <div class="container-fluid d-flex align-items-center h-100" >
-            <div class="row space-100 " >
+            <div class="row space-100 position" >
               <div class="col-lg-1 col-md-2 col-xs-2">
               </div>
               <div class="col-lg-5 col-md-8 col-xs-8">
                 <div class="contents">
                   <h1 className="head-title header_text" >AI-powered platform to reduce your car fleet operational cost</h1>
-                  <p className="header_subtext">Manage your drivers in one place. Track their performance. Reach them instantly and improve their driving on the fly</p>
-                  <div className="row">
+                  <p className="header_subtext" style={{ marginTop: "20px" }}>Manage your drivers in one place. Track their performance. <br />Reach them instantly and improve their driving on the fly.</p>
+                  <div className="row" style={{ marginTop: "20px" }}>
                     <div className="col-sm-6 col-md-5 col-lg-7  ">
                       <input
                         className="form-control "
@@ -50,13 +50,13 @@ export class Index extends Component {
                   </div>
                 </div>
               </div>
-              <div class="col-lg-5 col-md-12 col-xs-12 p-0 intro-img d-flex align-items-center">
+              <div class="col-lg-6 col-md-8 col-xs-8 intro-img d-flex align-items-center">
                 <div class="intro-img-place ">
                   <img src={headerImage} alt="Platform product overview" className="img-fluid" />
                 </div>
               </div>
-              <div class="col-lg-1 col-md-2 col-xs-2">
-              </div>
+              {/* <div class="col-lg-1 col-md-2 col-xs-2">
+              </div> */}
             </div>
           </div>
 
@@ -64,7 +64,7 @@ export class Index extends Component {
 
         {/*  */}
 
-        <section id="" className="container2   " style={{ marginTop: "100px" }}>
+        {/* <section id="" className="container2   " style={{ marginTop: "100px" }}>
           <div className=" justify-content-center no-gutters mb-5 mb-lg-0 main_containr ">
             <div className="d-flex h-100">
               <div class="container d-flex h-100 align-items-center">
@@ -101,7 +101,7 @@ export class Index extends Component {
               </div>
             </div>
           </div>
-        </section>
+        </section> */}
 
         {/* <!-- Projects Section --> */}
         <section id="projects" class="projects-section ">
@@ -119,7 +119,7 @@ export class Index extends Component {
               </div>
               <div class="col-lg-6 bg-white">
                 <div class="bg-black text-center h-100 project">
-                  <div class="d-flex h-100">
+                  <div class="d-flex align-self-center h-100">
                     <div class="project-text w-100 my-auto text-center text-lg-left justify-content-center">
                       <img
                         class=""
@@ -131,16 +131,15 @@ export class Index extends Component {
                         class="text-text-dark text-style"
                         style={{ marginTop: "10px" }}
                       >
-                        We help you to change your drivers behaviour
+                        We help you to change<br />your drivers behaviour
                       </h4>
-                      <p class="mb-0 text-dark-50">
-                        Lorem ipsum dolor sit amet, consectetur adipiscing elit,
-                        sed do eiusmod tempor incididunt ut labore et dolore
-                        magna aliqua. Ut enim ad minim veniam, quis nostrud
-                        exercitation ullamco laboris nisi ut aliquip ex ea
-                        commodo consequat. Duis aute irure dolor in
-                        reprehenderit in voluptate velit esse cillum dolore eu
-                        fugiat nulla pariatur
+                      <p class="mb-0">
+                        You can see all the data in one place, check the performance,
+                        but of course that’s not enought!
+                        We can help you change your driver’s driving behaviour,
+                        with situation specific suggestions and personalized feedback
+                        for each driver how to be more efficient, take better care
+                        of your vehicles and motivate them to improve.
                       </p>
                       <hr class="d-none d-lg-block mb-0 ml-0" />
                     </div>
@@ -167,17 +166,11 @@ export class Index extends Component {
                         alt="Driver Behaviour"
                         style={{ height: "60px" }}
                       />
-                      <h4 class="text-dark" style={{ marginTop: "10px" }}>
+                      <h4 class="text-text-dark text-style" style={{ marginTop: "10px" }}>
                         We reduce your TCO
                       </h4>
-                      <p class="mb-0 text-dark-50">
-                        Lorem ipsum dolor sit amet, consectetur adipiscing elit,
-                        sed do eiusmod tempor incididunt ut labore et dolore
-                        magna aliqua. Ut enim ad minim veniam, quis nostrud
-                        exercitation ullamco laboris nisi ut aliquip ex ea
-                        commodo consequat. Duis aute irure dolor in
-                        reprehenderit in voluptate velit esse cillum dolore eu
-                        fugiat nulla pariatur
+                      <p class="mb-0 text-dark-50" >
+                        You’re sick of using multiple tools or just an excel spreacheat to see how your fleet behaves? View the performance of your fleet in one single place so you can use your time in other tasks you have to do. Check and compare the data from different metrics to get a complete view of your drivers performance live.
                       </p>
                       <hr class="d-none d-lg-block mb-0 ml-0" />
                     </div>
@@ -206,17 +199,11 @@ export class Index extends Component {
                         style={{ height: "60px" }}
                       />
 
-                      <h4 class="text-text-dark" style={{ marginTop: "10px" }}>
-                        You can save even more with electric vechilces
+                      <h4 class="text-text-dark text-style" style={{ marginTop: "10px" }}>
+                        You can save even more<br />with electric vechilces
                       </h4>
                       <p class="mb-0 text-dark-50">
-                        Lorem ipsum dolor sit amet, consectetur adipiscing elit,
-                        sed do eiusmod tempor incididunt ut labore et dolore
-                        magna aliqua. Ut enim ad minim veniam, quis nostrud
-                        exercitation ullamco laboris nisi ut aliquip ex ea
-                        commodo consequat. Duis aute irure dolor in
-                        reprehenderit in voluptate velit esse cillum dolore eu
-                        fugiat nulla pariatur
+                        VivaDrive #DigitalFleet program provides smart analytics about driving and mobility taking into account driving behavior, car use, safety and risk and helps you optimize your TCO.
                       </p>
                       <hr class="d-none d-lg-block mb-0 ml-0" />
                     </div>
@@ -234,10 +221,10 @@ export class Index extends Component {
               <div class="container d-flex h-100 align-items-center">
                 <div class="mx-auto text-center landing_text ">
                   <h1 class="mx-auto head_text_landing  ">
-                    Anyone can give you information on your fleet
+                    Anyone can give you<br />information on your fleet
                   </h1>
                   <p class=" mx-auto text-landing ">
-                    Manage your drivers in one place. Track their performance.
+                    Manage your drivers in one place. Track their performance.<br />
                     Reach them instantly and improve their driving in the fly{" "}
                   </p>
                   {/* <a href="/blog/" class="btn btn-primary js-scroll-trigger">
@@ -246,25 +233,29 @@ export class Index extends Component {
                 </div>
               </div>
             </div>
-            <div className="container11">
-              <div className="row">
-                <div className="col-md-4 col-lg-4  ">
+            <div className="container d-flex justify-content-center 2-100">
+              <div className="row ">
+                {/* <div className="col-md-2 col-lg-4 ">
+                </div> */}
+                <div className="col-md-3 col-lg-4  ">
                   <button className="btn landing_button_btn">
                     Digital Fleet
                   </button>
                 </div>
-                <div className="col-md-4 col-lg-4 ">
+                <div className="col-md-2 col-lg-4 ">
                   {" "}
                   <button className="btn landing_button_btn">
                     Digital Fleet App
                   </button>{" "}
                 </div>
-                <div className="col-md-4 col-lg-4  ">
+                <div className="col-md-3 col-lg-4  ">
                   {" "}
                   <button className="btn landing_button_btn">
                     Ev Recommend
                   </button>{" "}
                 </div>
+                {/* <div className="col-md-2 col-lg-4 ">
+                </div> */}
               </div>
             </div>
           </div>
