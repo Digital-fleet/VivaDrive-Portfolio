@@ -19,44 +19,43 @@ export class Index extends Component {
       <div>
 
         {/*  Test Firmino*/}
-        <section id="Header" style={{ marginTop: "55px" }}>
+        <section id="Header" >
 
-          <div class="container-fluid d-flex align-items-center h-100" >
-            <div class="row space-100 position" >
-              <div class="col-lg-1 col-md-2 col-xs-2">
-              </div>
-              <div class="col-lg-5 col-md-8 col-xs-8">
-                <div class="contents">
-                  <h1 className="head-title header_text" >AI-powered platform to reduce your car fleet operational cost</h1>
-                  <p className="header_subtext" style={{ marginTop: "20px" }}>Manage your drivers in one place. Track their performance. <br />Reach them instantly and improve their driving on the fly.</p>
-                  <div className="row" style={{ marginTop: "20px" }}>
-                    <div className="col-sm-6 col-md-5 col-lg-7  ">
-                      <input
-                        className="form-control "
-                        type="text"
-                        placeholder="your@email.com"
-                        name="email"
-                      />
-                    </div>
-                    <div className="col-sm-6 col-md-3 col-lg-3 ">
-                      {" "}
-                      <button
-                        className="btn landing_button_btn1 "
-                        style={{ padding: "4px" }}
-                      >
-                        Free consultation
-                  </button>{" "}
-                    </div>
+          <div class="container-fluid" >
+            <div class="row d-flex justify-content-center header_center" >
+              <div class="col-lg-4 col-md-8 col-xs-8 ">
+                <h1 className="head-title header_text" >AI-powered platform to reduce your car fleet operational cost</h1>
+                <p className="header_subtext" style={{ marginTop: "20px" }}>Manage your drivers in one place. Track their performance. Reach them instantly and improve their driving on the fly.</p>
+                <div className="row" style={{ marginTop: "20px" }}>
+                  <div className="col-sm-6 col-md-5 col-lg-7  ">
+                    <input
+                      className="form-control "
+                      type="text"
+                      placeholder="your@email.com"
+                      name="email"
+                    />
+                  </div>
+                  <div className="col-lg-5 col-md-8 col-xs-8 ">
+                    {" "}
+                    {/* <button
+                      className="btn landing_button_btn1 " >
+                      Free consultation
+                    </button>{" "} */}
+                    <a
+                      className="nav-link btn contact_btn text-dark"
+                      href="#contactt"
+                      rel="modal:open">
+                      Free consultation
+                    </a>
                   </div>
                 </div>
               </div>
-              <div class="col-lg-6 col-md-8 col-xs-8 intro-img d-flex align-items-center">
+              <div class="col-lg-6 col-md-8 col-xs-8 intro-img d-flex align-items-center position">
                 <div class="intro-img-place ">
                   <img src={headerImage} alt="Platform product overview" className="img-fluid" />
                 </div>
               </div>
-              {/* <div class="col-lg-1 col-md-2 col-xs-2">
-              </div> */}
+
             </div>
           </div>
 
@@ -105,7 +104,7 @@ export class Index extends Component {
 
         {/* <!-- Projects Section --> */}
         <section id="projects" class="projects-section ">
-          <div class="containe3">
+          <div class="container">
             {/* <!-- Featured Project Row --> */}
 
             {/* <!-- Project One Row --> */}
@@ -215,17 +214,16 @@ export class Index extends Component {
         </section>
 
         {/* <!--  Section about landng page --> */}
-        <section id="landing" className="container2   ">
+        <section id="landing" className="container">
           <div className=" justify-content-center no-gutters mb-5 mb-lg-0 lannding_section ">
-            <div className="d-flex h-100">
+            <div className="d-flex h-100" style={{ paddingBottom: "30px" }}>
               <div class="container d-flex h-100 align-items-center">
                 <div class="mx-auto text-center landing_text ">
                   <h1 class="mx-auto head_text_landing  ">
-                    Anyone can give you<br />information on your fleet
+                    Anyone can give you information on your fleet
                   </h1>
                   <p class=" mx-auto text-landing ">
-                    Manage your drivers in one place. Track their performance.<br />
-                    Reach them instantly and improve their driving in the fly{" "}
+                    VivaDrive is develope to make all data more accessible and readable to you. We have the tools to reduce costs and improve your fleet performance.Learn more about VivaDrive and how we can help you.
                   </p>
                   {/* <a href="/blog/" class="btn btn-primary js-scroll-trigger">
                     Get Started
@@ -233,29 +231,27 @@ export class Index extends Component {
                 </div>
               </div>
             </div>
-            <div className="container d-flex justify-content-center 2-100">
-              <div className="row ">
-                {/* <div className="col-md-2 col-lg-4 ">
-                </div> */}
-                <div className="col-md-3 col-lg-4  ">
+            <div className="container">
+              <div className="row d-flex justify-content-center h-100 ">
+                {/* <div className="">
                   <button className="btn landing_button_btn">
                     Digital Fleet
                   </button>
+                </div> */}
+                <div className="">
+                  <a href="https://vivadrive.io/digitalfleet" class="btn landing_button_btn" role="button" target="_blank">Digital Fleet</a>
                 </div>
-                <div className="col-md-2 col-lg-4 ">
-                  {" "}
-                  <button className="btn landing_button_btn">
-                    Digital Fleet App
-                  </button>{" "}
+
+                <div className="">
+                  <a href="#" class="btn landing_button_btn disabled" role="button" target="_blank" >Ev Recommend</a>
                 </div>
-                <div className="col-md-3 col-lg-4  ">
+                {/* <div className="">
                   {" "}
                   <button className="btn landing_button_btn">
                     Ev Recommend
                   </button>{" "}
-                </div>
-                {/* <div className="col-md-2 col-lg-4 ">
                 </div> */}
+
               </div>
             </div>
           </div>
@@ -404,7 +400,7 @@ export class Index extends Component {
         </section>
         {/* <!--  Section about compay --> */}
 
-        <section className="company_section" style={{ marginTop: "40px" }}>
+        <section className="company_section" >
           <div className="work_with_company text-center">
             <div className="landing_image_section">
               <center>
@@ -422,46 +418,29 @@ export class Index extends Component {
 
         {/* <!--  Section about start boosting --> */}
 
-        <section className="star_boosting">
-          <div className="backbone">
-            <div className="col-sm-7 col-md-12 col-xl-10 backdody ">
-              <p
-                className=" footer-don "
-                style={{
-                  marginTop: "80px"
-                }}
-              >
-                Your fleet solution in less than 6 weeks
+        <section className="star_boosting container-fluid">
+          <div className="row backbone">
+            <div className="col-sm-7 col-md-12 col-xl-10  ">
+              <div style={{ marginTop: "50px" }}>
+                <p className=" footer-don" >
+                  Your fleet solution in less than 6 weeks
               </p>
-              <h1
-                className="header_text"
-                style={{ marginTop: "-12px", fontSize: "50px" }}
-              >
-                Start boosting your
-                <br></br> business today
+                <h1 className="header_text">
+                  Start boosting your business today
               </h1>
-              <p
-                className="  footer-don1"
-                style={{ marginTop: "20px", fontSize: "15px" }}
-              >
-                {" "}
+                <p className="  footer-don1">
+                  {" "}
                 Questions? Call us at{" "}
-                <strong
-                  style={{ color: "black", opacity: "1" }}
-                  className="font-weight-bolder"
-                >
-                  1-800-975-5304
+                  <strong style={{ color: "black", opacity: "1" }} className="font-weight-bolder">
+                    1-800-975-5304
                 </strong>{" "}
                 or email us{" "}
-                <strong
-                  style={{ color: "black", opacity: "1" }}
-                  className="font-weight-bolder"
-                >
-                  digitalfleet@vivadrive.io
+                  <strong style={{ color: "black", opacity: "1" }} className="font-weight-bolder">
+                    digitalfleet@vivadrive.io
                 </strong>
-              </p>
-
-              <div style={{ marginTop: "50px" }}>
+                </p>
+              </div>
+              <div style={{ margin: "50px 0" }}>
                 <div className="row">
                   <div className="col-md-6">
                     <input

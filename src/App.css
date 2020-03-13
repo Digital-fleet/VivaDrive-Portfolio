@@ -1,6 +1,9 @@
 @import url("https://fonts.googleapis.com/css?family=Roboto:400,500&display=swap");
 
 * {
+margin: 0;
+padding: 0;
+font-family: "Roboto", sans-serif;
 }
 
 /* Header  page css */
@@ -13,11 +16,21 @@
 #Header{
 background-color: #f8f8f5;
 height: 500px;
+width: auto;
+position: relative;
 }
 
-/* .head-title {
-margin-top: ;
-} */
+.header_center {
+  padding-top: 100px;
+  position: relative;
+}
+
+.position{
+position: absolute;
+top: 50px;
+right: -50px;
+}
+
 .intro-img {
   position: relative;
 }
@@ -66,11 +79,11 @@ margin-top: ;
   visibility: hidden;
 }
 .contact_btn {
-  border: 1px solid black;
-  width: 150px;
-
+  background-color: #63e9b7;
+  width: 200px;
   font-family: "Roboto", sans-serif;
-  font-weight: 500;
+  font-weight: 600;
+
 }
 .j li {
   font-family: "Roboto", sans-serif;
@@ -79,19 +92,9 @@ margin-top: ;
 }
 
 /* Index page css */
-.container2 {
-  padding-left: 5%;
-  padding-right: 5%;
-
-  max-width: 1300px;
-  margin:auto;
-}
-
 .containe3 {
-  padding-left: 0px;
-  padding-right: 0px;
   max-width: 1500px;
-  margin: 0 auto;
+  
 }
 .main_containr {
   background-color: #f8f8f5;
@@ -99,13 +102,17 @@ margin-top: ;
   padding-bottom: 50px;
 }
 #landing {
-  margin-top: 4rem;
+  padding-top: 100px;
+  padding-bottom: 100px;
+  padding-left: 10%;
+  padding-right: 10%;
+  max-width: 1600px;
 }
 .lannding_section {
   border: 2px solid #63e9b7;
-  padding-top: 40px;
+  padding-top: 50px;
   padding-bottom: 50px;
-  border-radius: 4px;
+  /* border-radius: 4px; */
 }
 
 .landing_button_btn {
@@ -116,16 +123,16 @@ margin-top: ;
   font-size: 18px;
   padding: 8px 50px;
   width: 250px;
+  margin: 0 40px;
 }
 .landing_button_btn1 {
   background-color: #63e9b7;
   color: #000000;
   font-family: "Roboto", sans-serif;
   font-weight: 600;
-  font-size: 18px;
-  padding: 8px 50px;
   width: 200px;
 }
+
 .landing_text {
   max-width: 600px;
 }
@@ -133,9 +140,6 @@ margin-top: ;
   max-width: 650px;
 }
 
-.star_boosting {
-  margin-top: 4rem;
-}
 
 .star_boosting {
   background-color: #63e9b7;
@@ -144,7 +148,7 @@ margin-top: ;
 }
 .company_section {
   max-width: 900px;
-  margin: 0 auto;
+  margin: 100px auto;
 }
 
 .landing_image {
@@ -169,11 +173,15 @@ margin-top: ;
   padding-left: 130px;
   padding-right: 80px;
 }
+
+.star_boosting{
+width: auto;
+height: auto;
+}
 .backbone {
-  left: -3%;
-  position: relative;
+  padding: 50px 0;
   margin: 0 auto;
-  max-width: 1000px;
+  max-width: 800px;
 }
 .text-landing {
   font-family: "Roboto", sans-serif;
@@ -197,7 +205,7 @@ margin-top: ;
 .header_text {
   font-family: "Roboto", sans-serif;
   font-weight: 900;
-  font-size: 55px;
+  font-size: 40px;
 }
 .email_field {
   padding-left: 95px;
@@ -237,12 +245,12 @@ margin-top: ;
   background-color: #555;
   color: white;
 } */
-.inpr {
+/* .inpr {
   position: absolute;
   top: 50%;
   left: 50%;
   max-width: 350px;
-}
+} */
 /* .container2 .inpr {
   position: absolute;
   top: 50%;
@@ -250,6 +258,7 @@ margin-top: ;
   transform: translate(-50%, -50%);
   -ms-transform: translate(-50%, -50%);
 } */
+
 .form_button {
   margin-top: 60px;
 }
@@ -324,11 +333,6 @@ p {
     visibility: visible;
   }
 
-  .container2 {
-    padding-left: 10px;
-    padding-right: 10px;
-    margin: 10px;
-  }
   .main_containr {
     padding-top: 40px;
     padding-bottom: 40px;

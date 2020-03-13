@@ -5,8 +5,8 @@ import Logo from "../img/Logo.png";
 class Header extends Component {
   render() {
     return (
-      <div className="container1">
-        <nav className="navbar navbar-expand-lg navbar-dark  fixed-top">
+      <div className="">
+        <nav className="navbar navbar-expand-lg navbar-dark  fixed">
           {/* <a
             className="navbar-brand"
             href="/"
